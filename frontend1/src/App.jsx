@@ -25,7 +25,7 @@ import { io } from 'socket.io-client'
 import { setSocket } from './redux/userSlice'
 
 
-export const serverUrl="http://localhost:8000"
+export const serverUrl="https://wingobackend-x5jn.onrender.com"
 const App = () => {
   const dispatch=useDispatch()
   useGetCurrentUser()
